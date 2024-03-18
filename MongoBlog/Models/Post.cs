@@ -1,11 +1,13 @@
-﻿namespace MongoBlog.Models
+﻿using MongoDB.Bson;
+
+namespace MongoBlog.Models
 {
     public class Post
     {
-        public string Id { get; set; }
+        public ObjectId Id { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
         public DateTime CreatedAt { get; set; }
-        public string UserId { get; set; }
+        public ObjectId UserId { get; set; }
     }
 }
