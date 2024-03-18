@@ -1,0 +1,6 @@
+@MongoBlog_HostAddress = http://localhost:5168
+
+GET {{MongoBlog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
