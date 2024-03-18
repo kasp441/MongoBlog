@@ -9,6 +9,5 @@ namespace MongoBlog.Models
         public string Description { get; set; }
         public List<ObjectId> PostIds { get; set; }
         public DateTime CreatedAt { get; set; }
-        public ObjectId UserId { get; set; }
     }
 }
